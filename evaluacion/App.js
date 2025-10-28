@@ -1,9 +1,9 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { PostsProvider } from './src/context/PostsContext';
-import PostsListScreen from './src/screens/PostsListScreen';
-import PostDetailScreen from './src/screens/PostDetailScreen';
-import CreateEditPostScreen from './src/screens/CreateEditPostScreen';
+import { PostsProvider } from './context/PostsContext';
+import PostsListScreen from './screens/PostsListScreen';
+import PostDetailScreen from './screens/PostDetailScreen';
+import CreateEditPostScreen from './screens/CreateEditPostScreen';
 
 const Stack = createNativeStackNavigator();
 

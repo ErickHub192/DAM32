@@ -20,7 +20,7 @@ export const savePosts = async (posts) =>{
 
 };
 
-export const getStoredPost = async() =>{
+export const getStoredPosts = async() =>{
     try{
         const data = await AsyncStorage.getItem(KEYS.POSTS);
     if(data === null){

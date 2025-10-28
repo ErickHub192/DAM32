@@ -1,7 +1,7 @@
 import { createContext, useState, useEffect, useContext } from 'react';
 import NetInfo from '@react-native-community/netinfo';
-import * as api from '../services/api';
-import * as storage from '../services/storage';
+import * as api from '../service/api';
+import * as storage from '../service/storage';
 
 const PostsContext = createContext();
 
